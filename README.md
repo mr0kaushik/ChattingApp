@@ -11,10 +11,11 @@ Given below are some features of this app, I hope you guys will like it.
 5. **Edit your profile section**
 6. **Update your About**
 7. **Send message to a user**
-8. **Search User by thier username**
-9. **Check users profile**
-10. **Message Deliver and Seen feature**
-11. **Logout**
+9. **Online and Offline of Users whom you have chatted**
+10. **Search User by thier username**
+11. **Check users profile**
+12. **Message Deliver and Seen feature**
+13. **Logout**
 
 
 Things which are not implemented in this app : 
