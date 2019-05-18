@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorButton">#2A97CA</color>
+    <color name="colorGrey">#D1CBCB</color>
+    <color name="gray_dark">#858585</color>
+
+    <color name="gray_light">#e8e8e8</color>
+    <color name="BackgroundColorForChat">#E3D7E0</color>
+    <color name="colorDarkGrey">#7E6B6B</color>
+    <color name="colorBlack">#333</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="cornflower_blue">#6274e2</color>
+    <color name="cornflower_blue_dark">#303F9F</color>
+    <color name="cornflower_blue_darkest">#2d3a93</color>
+
+
+
+</resources>

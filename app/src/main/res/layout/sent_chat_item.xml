@@ -1,0 +1,68 @@
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="8dp">
+
+        <LinearLayout
+            android:id="@id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:background="@drawable/message"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/messageText"
+                android:textColor="@color/colorWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:padding="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginStart="8dp"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/bubble"
+            android:paddingRight="4dp"
+            android:paddingEnd="4dp" />
+
+        <TextView
+            android:id="@+id/messageTimeStamp"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bubble"
+            android:paddingRight="3dp"
+            android:layout_toLeftOf="@id/iv_seen"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_toStartOf="@id/iv_seen"
+            android:paddingEnd="3dp" />
+
+    </RelativeLayout>
+</RelativeLayout>
