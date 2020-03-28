@@ -120,13 +120,13 @@ public class UsersFragment extends Fragment {
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if (searchText.getText().toString().equals("")) {
+                if (searchText.getText() != null && searchText.getText().toString().equals("")) {
                     userList.clear();
                     for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                         User user = snapshot.getValue(User.class);
                         assert user != null;
                         assert firebaseUser != null;
-                        if (!user.getId().equals(firebaseUser.getUid())) {
+                        if (user.getId()!=null && !user.getId().equals(firebaseUser.getUid())) {
                             userList.add(user);
                         }
                     }
