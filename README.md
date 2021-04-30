@@ -1,6 +1,6 @@
 # ChattingApp
-Hello peoples this is my first ever Android App which runs on Firebase Realtime Database.
-Given below are some features of this app, I hope you guys will like it. 
+Hello everyone, this is my first ever Android App which runs on Firebase Realtime Database.
+Some of the features are written below, don't forget to put the Star if you like it. 
 
 ### Download App : <a href="https://drive.google.com/file/d/14Z24eJOy8wZX3LXQ-9wNzaSdYAfQ_V_a/view?usp=sharing">Click Here</a>
 
@@ -25,8 +25,6 @@ Things which are not implemented in this app :
 - Block User
 - Notification
 - Timestamp
-
-But I will try to implement these things later.
 
 ## Screenshots
 
